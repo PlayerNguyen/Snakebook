@@ -1,11 +1,8 @@
-package com.github;
+package com.github.snakebook;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.utils.ScreenUtils;
-
-import java.util.Random;
 
 public class Snakebook extends ApplicationAdapter {
 	SpriteBatch batch;
@@ -19,19 +16,11 @@ public class Snakebook extends ApplicationAdapter {
 
 	@Override
 	public void render () {
-		ScreenUtils.clear(1,
-				(float) new Random().nextDouble(),
-				(float) new Random().nextDouble(),
-				(float) new Random().nextDouble()
-		);
-		batch.begin();
-		batch.draw(img, 0, 0);
-		batch.end();
+
 	}
 	
 	@Override
 	public void dispose () {
-		batch.dispose();
-		img.dispose();
+
 	}
 }
