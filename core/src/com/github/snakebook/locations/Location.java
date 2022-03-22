@@ -2,27 +2,27 @@ package com.github.snakebook.locations;
 
 public class Location {
 
-    private double x;
-    private double y;
+    public float x;
+    public float y;
 
-    public Location(double x, double y) {
+    public Location(float x, float y) {
         this.x = x;
         this.y = y;
     }
 
-    public double getX() {
+    public float getX() {
         return x;
     }
 
-    public void setX(double x) {
+    public void setX(float x) {
         this.x = x;
     }
 
-    public double getY() {
+    public float getY() {
         return y;
     }
 
-    public void setY(double y) {
+    public void setY(float y) {
         this.y = y;
     }
 
@@ -34,11 +34,29 @@ public class Location {
      */
     public double distance(Location otherLocation) {
         return Math.sqrt(
-                Math.pow(otherLocation.x, 2) + Math.pow(otherLocation.y, 2)
+                Math.pow(this.x - otherLocation.x, 2) + Math.pow(this.y - otherLocation.y, 2)
         );
     }
-    
-//    public Vector vectorize() {
-//
-//    }
+
+    public Location add(float x, float y) {
+        this.x += x;
+        this.y += y;
+        return this;
+    }
+
+    public Location multiply(float f) {
+        this.x *= f;
+        this.y *= f;
+        return this;
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "Location{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }
