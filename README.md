@@ -1,4 +1,4 @@
-#SnakeBook
+# SnakeBook
 
 Casual 2D-action game developed by Phour Team only available for PC  
 
@@ -11,9 +11,9 @@ Casual 2D-action game developed by Phour Team only available for PC
  - [Project Status](#project-status)
  - [Acknowledgements](#acknowledgements)
 
-##About
+## About
 
-###General Info
+### General Info
 
 Snakebook is a simple single-player game.Players control
 a yellow snake which was called Mr.Snake with some weird 
@@ -22,28 +22,28 @@ and many different things(almost garbage.The objective of player is help
 Mr.Snake grow back to the original size by control Mr.Snake eating book,
 avoiding eating shit or worm and trying to pass through obstacles.
 
-###Rule
+### Rule
 - Control Mr.Snake to let him eat the books in the area in order to increase size. But be careful with the “shit” and obstacles! Eating shit will decrease your size to half, you also die when your size is smaller than the beginning.
 - On your journey, there are also obstacles and worms, try to avoid touching your head to those risks. You can kill worms by letting their heads touch your body, the dead worm will transform into books.
 - **Note**: After you die (from head collision with an obstacle or worms’ body), scoring will be the number of books you ate. The circumstance where your head touches a worm's head also lets two of you die.
 
-###Our Motivation
+### Our Motivation
 
 Our main motivation for choosing this game is the hope of finalize our first project game 
 and our knowledge that learn through trial and error coding.Beside that, this is a great chance for us to work in team and lay the foundation for our future, 
 step by step from junior dev become senior leadership someday.Moverover, by adding the obstacles with garbage, plastic, cans which we uses everyday can remain in the environment and its pollution not only animal,our Earth but also ourself.
 
-###Us
+### Us
 
-####Team Leader: 
+#### Team Leader: 
 - **Vo Trung Duong** - ITITIU20913
 
-####Team Member:
+#### Team Member:
 - **Nguyen Huynh Nguyen** - ITITIU20261
 - **Tran Tuan Nghiep** - ITITIU20259
 - **Pham Hong Gia Huy** - ITITIU19130
 
-##Technologies
+## Technologies
 
 Project is created with:
 - Java language. 
@@ -51,9 +51,9 @@ Project is created with:
 - [libGDX](https://libgdx.com/) version 1.10.0.
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows) version 2021.3.3.
 
-##Features
+## Features
 
-##Screenshot/ Gameplay
+## Screenshot/ Gameplay
 - **Assets:**
 ![Assets](https://user-images.githubusercontent.com/99232451/163297847-4cdc7bc1-f565-4f67-81e0-ee109fdbf6d1.png)
 - __Background:__
@@ -64,13 +64,13 @@ Project is created with:
   ![Player](https://user-images.githubusercontent.com/99232451/163298551-80c62d4a-27e2-4ec6-a32d-e10e41c73840.png)
 
 Please [click here](https://drive.google.com/drive/folders/1hQIyvF_TvZX1Ip45ahoCsF6WobBCb5ii) for more picture and video about our game.
-##Setup
+## Setup
 
-##Project Status
+## Project Status
 
 Project is **in progress**.
 
-###Timeline
+### Timeline
 - [x] Suggest, vote and finalize general info about team and idea game
    - [x] Team name: Phour Team.
    - [x] Game name: Snake Book.
@@ -102,7 +102,7 @@ Project is **in progress**.
 - **Responsible**: Nguyen,Duong,Huy\
 [...]
 
-##Acknowledgements
+## Acknowledgements
 - This project was inspired by **Slither.io** from **Steve Howse**.
 - This readme file was based on [this tutorial](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project).
 - Many thanks to **Tom** for guiding us
