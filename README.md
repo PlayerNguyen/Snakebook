@@ -1,5 +1,7 @@
-#Snakebook
+#SnakeBook
+
 Casual 2D-action game developed by Phour Team only available for PC  
+
 ##Table of Contents
  - [About](#About)
  - [Technologies](#technologies)
@@ -10,13 +12,16 @@ Casual 2D-action game developed by Phour Team only available for PC
  - [Acknowledgements](#acknowledgements)
 
 ##About
+
 ###General Info
+
 Snakebook is a simple single-player game.Players control
 a yellow snake which was called Mr.Snake with some weird 
 reason, he was shrunk and lost in a place full of worms
 and many different things(almost garbage.The objective of player is help
 Mr.Snake grow back to the original size by control Mr.Snake eating book,
 avoiding eating shit or worm and trying to pass through obstacles.
+
 ###Rule
 - Control Mr.Snake to let him eat the books in the area in order to increase size. But be careful with the “shit” and obstacles! Eating shit will decrease your size to half, you also die when your size is smaller than the beginning.
 - On your journey, there are also obstacles and worms, try to avoid touching your head to those risks. You can kill worms by letting their heads touch your body, the dead worm will transform into books.
@@ -28,6 +33,7 @@ and our knowledge that learn through trial and error coding.Beside that, this is
 step by step from junior dev become senior leadership someday.Moverover, by adding the obstacles with garbage, plastic, cans which we uses everyday can remain in the environment and its pollution not only animal,our Earth but also ourself.
 
 ###Us
+
 ####Team Leader: 
 - **Vo Trung Duong** - ITITIU20913
 
@@ -35,14 +41,17 @@ step by step from junior dev become senior leadership someday.Moverover, by addi
 - **Nguyen Huynh Nguyen** - ITITIU20261
 - **Tran Tuan Nghiep** - ITITIU20259
 - **Pham Hong Gia Huy** - ITITIU19130
+
 ##Technologies
+
 Project is created with:
 - Java language. 
 - [Oracle JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
 - [libGDX](https://libgdx.com/) version 1.10.0.
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows) version 2021.3.3.
+
 ##Features
-###Main features
+
 ##Screenshot/ Gameplay
 - **Assets:**
 ![Assets](https://user-images.githubusercontent.com/99232451/163297847-4cdc7bc1-f565-4f67-81e0-ee109fdbf6d1.png)
@@ -50,6 +59,7 @@ Project is created with:
   ![Background](https://user-images.githubusercontent.com/99232451/163298374-18ef7df4-ce45-401d-88fa-615fc6091c00.png)
   ![greenBackground](https://user-images.githubusercontent.com/99232451/163298408-2035c227-c92f-41af-b4b0-8351419fe9f1.jpg)
 - **Character:**
+
   ![Player](https://user-images.githubusercontent.com/99232451/163298551-80c62d4a-27e2-4ec6-a32d-e10e41c73840.png)
 
 Please [click here](https://drive.google.com/drive/folders/1hQIyvF_TvZX1Ip45ahoCsF6WobBCb5ii) for more picture and video about our game.
@@ -92,6 +102,7 @@ Project is **in progress**.
 - This project was inspired by **Slither.io** from **Steve Howse**.
 - This readme file was based on [this tutorial](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project).
 - Many thanks to **Tom** for guiding us
+
   ![thankumeme](https://user-images.githubusercontent.com/99232451/163300884-74f400b5-63ac-4997-b138-8d822bf38fdb.jpg)
 
 
