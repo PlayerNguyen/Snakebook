@@ -65,8 +65,11 @@ Project is created with:
 
 Please [click here](https://drive.google.com/drive/folders/1hQIyvF_TvZX1Ip45ahoCsF6WobBCb5ii) for more picture and video about our game.
 ##Setup
+
 ##Project Status
+
 Project is **in progress**.
+
 ###Timeline
 - [x] Suggest, vote and finalize general info about team and idea game
    - [x] Team name: Phour Team.
