@@ -28,6 +28,7 @@ avoiding eating shit or worm and trying to pass through obstacles.
 - **Note**: After you die (from head collision with an obstacle or worms’ body), scoring will be the number of books you ate. The circumstance where your head touches a worm's head also lets two of you die.
 
 ###Our Motivation
+
 Our main motivation for choosing this game is the hope of finalize our first project game 
 and our knowledge that learn through trial and error coding.Beside that, this is a great chance for us to work in team and lay the foundation for our future, 
 step by step from junior dev become senior leadership someday.Moverover, by adding the obstacles with garbage, plastic, cans which we uses everyday can remain in the environment and its pollution not only animal,our Earth but also ourself.
