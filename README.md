@@ -15,23 +15,23 @@ Casual 2D-action game developed by Phour Team only available for PC
 
 ### General Info
 
-Snakebook is a simple single-player game.Players control
-a yellow snake which was called Mr.Snake with some weird 
-reason, he was shrunk and lost in a place full of worms
-and many different things(almost garbage.The objective of player is help
-Mr.Snake grow back to the original size by control Mr.Snake eating book,
-avoiding eating shit or worm and trying to pass through obstacles.
+Snakebook is a simple single-player game. Players control
+a yellow snake which is called Mr.Snake. For some weird 
+reasons, in that morning, he woke up, found out he was shrunk then lost in a place full of worms
+and mysterious risks. The objective of player is to help
+Mr.Snake grow back to his original size by letting Mr.Snake eat books,
+avoid eating "shit" or hitting worms and try to pass through obstacles.
 
 ### Rule
-- Control Mr.Snake to let him eat the books in the area in order to increase size. But be careful with the “shit” and obstacles! Eating shit will decrease your size to half, you also die when your size is smaller than the beginning.
-- On your journey, there are also obstacles and worms, try to avoid touching your head to those risks. You can kill worms by letting their heads touch your body, the dead worm will transform into books.
-- **Note**: After you die (from head collision with an obstacle or worms’ body), scoring will be the number of books you ate. The circumstance where your head touches a worm's head also lets two of you die.
+- Control Mr.Snake to let him eat the books in the area in order to increase size. But be careful with the “shit”! Eating it will decrease your size to half, you also die when your size is smaller than the beginning.
+- On your journey, there are also obstacles and worms, try to avoid touching your head to those risks. You can kill worms by letting their heads touch your body. You can also kill worms by get them eat "shit", you can release "shit" while sprinting, eating "shit" will cause immediate death to the worm, the dead worm will transform into books.
+- **Note**: After you die, scoring will be the number of books you ate. The circumstance where your head touches a worm's head also lets two of you die.
 
 ### Our Motivation
 
-Our main motivation for choosing this game is the hope of finalize our first project game 
-and our knowledge that learn through trial and error coding.Beside that, this is a great chance for us to work in team and lay the foundation for our future, 
-step by step from junior dev become senior leadership someday.Moverover, by adding the obstacles with garbage, plastic, cans which we uses everyday can remain in the environment and its pollution not only animal,our Earth but also ourself.
+Our main motivation by choosing this game is to hope that we could finalize our first project game 
+and extends our knowledge while learning through trial and error coding. We claimed that Snakebook is not a rip-off of Slither.io, we improvised the basic, easy-to-make-and-learn game with lots more features, though still keep it simple enough. Beside of that, this is a great chance for us to know how to team-work and lay the foundation for our future, 
+step by step from junior developer, grinding and become senior leadership someday. Moreover, eating books and being called Snakebook is a play-word for bookworm, snake got lost with bunches of worms is kind of funny and amused.  
 
 ### Us
 
