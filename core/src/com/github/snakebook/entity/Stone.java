@@ -7,32 +7,17 @@ import com.github.snakebook.locations.Location;
 import com.github.snakebook.locations.Vector;
 import com.github.snakebook.world.World;
 
-public class Poop implements Entity {
-    private static final String TEXTURE_FILE_NAME = "poop.png";
-    private static final Texture POOP_TEXTURE = new Texture(Gdx.files.internal(TEXTURE_FILE_NAME));
+public class Stone implements Entity{
+    private static final String TEXTURE_FILE_NAME = "stone-big.png";
+    private static final Texture STONE_TEXTURE = new Texture(Gdx.files.internal(TEXTURE_FILE_NAME));
 
     private Location location;
     private Sprite sprite;
     private Vector direction;
 
-    public Poop(Location location) {
+    public Stone(Location location){
         this.location = location;
         this.direction = new Vector(0, 0);
-    }
-
-    @Override
-    public Location getLocation() {
-        return location;
-    }
-
-    @Override
-    public void setLocation(Location location) {
-        this.location = location;
-    }
-
-    @Override
-    public Texture getTexture() {
-        return POOP_TEXTURE;
     }
 
     @Override
@@ -56,12 +41,25 @@ public class Poop implements Entity {
             world.getEntities().remove(this);
             world.getPlayer().createPart(world);
         }
-
     }
-
 
     @Override
     public void dispose(World world) {
-        POOP_TEXTURE.dispose();
+        STONE_TEXTURE.dispose();
+    }
+
+    @Override
+    public Location getLocation() {
+        return location;
+    }
+
+    @Override
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    @Override
+    public Texture getTexture() {
+        return STONE_TEXTURE;
     }
 }
