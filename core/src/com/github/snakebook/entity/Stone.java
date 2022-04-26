@@ -36,9 +36,8 @@ public class Stone implements Entity {
         this.sprite.setY(this.location.y);
 
         if (world.getPlayer().getHeadLocation().distance(this.location) <= 32f) {
-            System.out.println("Colliding");
+            System.out.println("Dead");
             world.getEntities().remove(this);
-            world.getPlayer().createPart(world);
         }
     }
 
