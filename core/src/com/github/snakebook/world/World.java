@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.github.snakebook.Renderable;
 import com.github.snakebook.entity.Poop;
+import com.github.snakebook.entity.Stone;
 import com.github.snakebook.entity.blocks.Block;
 import com.github.snakebook.entity.blocks.TerrainBlock;
 import com.github.snakebook.entity.Entity;
@@ -69,9 +70,15 @@ public class World implements Renderable {
             block.create(this);
         }
 
+        //add poop
         this.entities.add(new Poop(new Location(128, 128)));
         this.entities.add(new Poop(new Location(256, 256)));
         this.entities.add(new Poop(new Location(512, 512)));
+
+        //add stones
+        this.entities.add(new Stone(new Texture(Gdx.files.internal("stone-big.png")), new Location(200,3570)));
+        this.entities.add(new Stone(new Texture(Gdx.files.internal("stone-small-1.png")), new Location(255,100)));
+        this.entities.add(new Stone(new Texture(Gdx.files.internal("stone-small-2.png")), new Location(400,300)));
 
         for (Entity entity : this.entities) {
             entity.create(this);
